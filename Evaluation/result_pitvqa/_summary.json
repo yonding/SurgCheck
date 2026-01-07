@@ -1,0 +1,2183 @@
+{
+  "in_dir": "output_pitvqa",
+  "out_dir": "result_pitvqa",
+  "num_files": 10,
+  "overall": {
+    "total_samples": 25074,
+    "total_correct": 17711,
+    "accuracy": 0.7063492063492064,
+    "accuracy_percent": "70.63%",
+    "macro_f1": 0.43629267655658693,
+    "micro_f1": 0.7063492063492064,
+    "weighted_f1": 0.6956963760778673,
+    "num_classes": 41
+  },
+  "by_main_tag": [
+    {
+      "n": 25074,
+      "correct": 17711,
+      "acc": 0.7063492063492064,
+      "acc_percent": "70.63%",
+      "key": "",
+      "macro_f1": 0.43629267655658693
+    }
+  ],
+  "by_sub_tag": [
+    {
+      "n": 5486,
+      "correct": 4448,
+      "acc": 0.8107911046299672,
+      "acc_percent": "81.08%",
+      "key": "Word_Cue",
+      "macro_f1": 0.6833273722565082
+    },
+    {
+      "n": 3120,
+      "correct": 2306,
+      "acc": 0.7391025641025641,
+      "acc_percent": "73.91%",
+      "key": "No_Cue",
+      "macro_f1": 0.6966259173528201
+    },
+    {
+      "n": 5490,
+      "correct": 3798,
+      "acc": 0.6918032786885245,
+      "acc_percent": "69.18%",
+      "key": "Position_Cue",
+      "macro_f1": 0.4477400265143314
+    },
+    {
+      "n": 5488,
+      "correct": 3683,
+      "acc": 0.671100583090379,
+      "acc_percent": "67.11%",
+      "key": "Box_Cue",
+      "macro_f1": 0.3924573902155908
+    },
+    {
+      "n": 5490,
+      "correct": 3476,
+      "acc": 0.6331511839708561,
+      "acc_percent": "63.32%",
+      "key": "Arrow_Cue",
+      "macro_f1": 0.35666499331448936
+    }
+  ],
+  "by_sub_sub_tag": [
+    {
+      "n": 4564,
+      "correct": 3887,
+      "acc": 0.8516652059596845,
+      "acc_percent": "85.17%",
+      "key": "Instrument",
+      "macro_f1": 0.35147970371594445
+    },
+    {
+      "n": 4460,
+      "correct": 3796,
+      "acc": 0.8511210762331839,
+      "acc_percent": "85.11%",
+      "key": "Action",
+      "macro_f1": 0.6963356545875665
+    },
+    {
+      "n": 624,
+      "correct": 510,
+      "acc": 0.8173076923076923,
+      "acc_percent": "81.73%",
+      "key": "Instrument_Count",
+      "macro_f1": 0.7189622257556056
+    },
+    {
+      "n": 2496,
+      "correct": 1796,
+      "acc": 0.719551282051282,
+      "acc_percent": "71.96%",
+      "key": "CVS",
+      "macro_f1": 0.6519533005472493
+    },
+    {
+      "n": 4460,
+      "correct": 3060,
+      "acc": 0.6860986547085202,
+      "acc_percent": "68.61%",
+      "key": "Target",
+      "macro_f1": 0.46988083529631003
+    },
+    {
+      "n": 892,
+      "correct": 611,
+      "acc": 0.6849775784753364,
+      "acc_percent": "68.50%",
+      "key": "Triplet",
+      "macro_f1": 0.2138846390182666
+    },
+    {
+      "n": 1978,
+      "correct": 1188,
+      "acc": 0.6006066734074823,
+      "acc_percent": "60.06%",
+      "key": "anatomy",
+      "macro_f1": 0.5329599722603986
+    },
+    {
+      "n": 5600,
+      "correct": 2863,
+      "acc": 0.51125,
+      "acc_percent": "51.12%",
+      "key": "anatomy_hop",
+      "macro_f1": 0.3948385517998153
+    }
+  ],
+  "by_combo_main_sub_subsub": [
+    {
+      "n": 1498,
+      "correct": 1452,
+      "acc": 0.9692923898531375,
+      "acc_percent": "96.93%",
+      "main_tag": "",
+      "sub_tag": "Word_Cue",
+      "sub_sub_tag": "Instrument",
+      "macro_f1": 0.7572914076366283,
+      "micro_f1": 0.9692923898531375,
+      "weighted_f1": 0.9690512879488966
+    },
+    {
+      "n": 1296,
+      "correct": 1238,
+      "acc": 0.9552469135802469,
+      "acc_percent": "95.52%",
+      "main_tag": "",
+      "sub_tag": "Word_Cue",
+      "sub_sub_tag": "Action",
+      "macro_f1": 0.7959018695463566,
+      "micro_f1": 0.9552469135802469,
+      "weighted_f1": 0.9540908268600155
+    },
+    {
+      "n": 1064,
+      "correct": 909,
+      "acc": 0.8543233082706767,
+      "acc_percent": "85.43%",
+      "main_tag": "",
+      "sub_tag": "Position_Cue",
+      "sub_sub_tag": "Action",
+      "macro_f1": 0.692621232959998,
+      "micro_f1": 0.8543233082706767,
+      "weighted_f1": 0.8497271372160764
+    },
+    {
+      "n": 1008,
+      "correct": 847,
+      "acc": 0.8402777777777778,
+      "acc_percent": "84.03%",
+      "main_tag": "",
+      "sub_tag": "Position_Cue",
+      "sub_sub_tag": "Instrument",
+      "macro_f1": 0.35410326025198063,
+      "micro_f1": 0.8402777777777778,
+      "weighted_f1": 0.8574795167179726
+    },
+    {
+      "n": 1166,
+      "correct": 960,
+      "acc": 0.823327615780446,
+      "acc_percent": "82.33%",
+      "main_tag": "",
+      "sub_tag": "Word_Cue",
+      "sub_sub_tag": "Target",
+      "macro_f1": 0.6869341866776437,
+      "micro_f1": 0.823327615780446,
+      "weighted_f1": 0.8198062698276655
+    },
+    {
+      "n": 624,
+      "correct": 510,
+      "acc": 0.8173076923076923,
+      "acc_percent": "81.73%",
+      "main_tag": "",
+      "sub_tag": "No_Cue",
+      "sub_sub_tag": "Instrument_Count",
+      "macro_f1": 0.7189622257556056,
+      "micro_f1": 0.8173076923076923,
+      "weighted_f1": 0.8134110471322862
+    },
+    {
+      "n": 1058,
+      "correct": 835,
+      "acc": 0.7892249527410208,
+      "acc_percent": "78.92%",
+      "main_tag": "",
+      "sub_tag": "Box_Cue",
+      "sub_sub_tag": "Action",
+      "macro_f1": 0.6162953963687905,
+      "micro_f1": 0.7892249527410208,
+      "weighted_f1": 0.7840729167486402
+    },
+    {
+      "n": 1042,
+      "correct": 814,
+      "acc": 0.781190019193858,
+      "acc_percent": "78.12%",
+      "main_tag": "",
+      "sub_tag": "Arrow_Cue",
+      "sub_sub_tag": "Action",
+      "macro_f1": 0.6481433899020388,
+      "micro_f1": 0.781190019193858,
+      "weighted_f1": 0.776842406920285
+    },
+    {
+      "n": 1020,
+      "correct": 788,
+      "acc": 0.7725490196078432,
+      "acc_percent": "77.25%",
+      "main_tag": "",
+      "sub_tag": "Box_Cue",
+      "sub_sub_tag": "Instrument",
+      "macro_f1": 0.3840247527505188,
+      "micro_f1": 0.7725490196078431,
+      "weighted_f1": 0.7888986905015754
+    },
+    {
+      "n": 1038,
+      "correct": 800,
+      "acc": 0.7707129094412332,
+      "acc_percent": "77.07%",
+      "main_tag": "",
+      "sub_tag": "Arrow_Cue",
+      "sub_sub_tag": "Instrument",
+      "macro_f1": 0.38823638603401395,
+      "micro_f1": 0.7707129094412332,
+      "weighted_f1": 0.780032609917563
+    },
+    {
+      "n": 330,
+      "correct": 241,
+      "acc": 0.7303030303030303,
+      "acc_percent": "73.03%",
+      "main_tag": "",
+      "sub_tag": "Position_Cue",
+      "sub_sub_tag": "Triplet",
+      "macro_f1": 0.31659543462338446,
+      "micro_f1": 0.7303030303030303,
+      "weighted_f1": 0.6899718133392576
+    },
+    {
+      "n": 2496,
+      "correct": 1796,
+      "acc": 0.719551282051282,
+      "acc_percent": "71.96%",
+      "main_tag": "",
+      "sub_tag": "No_Cue",
+      "sub_sub_tag": "CVS",
+      "macro_f1": 0.6519533005472493,
+      "micro_f1": 0.719551282051282,
+      "weighted_f1": 0.6984115496536573
+    },
+    {
+      "n": 688,
+      "correct": 484,
+      "acc": 0.7034883720930233,
+      "acc_percent": "70.35%",
+      "main_tag": "",
+      "sub_tag": "Box_Cue",
+      "sub_sub_tag": "anatomy",
+      "macro_f1": 0.6613316795613453,
+      "micro_f1": 0.7034883720930233,
+      "weighted_f1": 0.7040621703416234
+    },
+    {
+      "n": 1070,
+      "correct": 744,
+      "acc": 0.6953271028037383,
+      "acc_percent": "69.53%",
+      "main_tag": "",
+      "sub_tag": "Position_Cue",
+      "sub_sub_tag": "Target",
+      "macro_f1": 0.6006628819817292,
+      "micro_f1": 0.6953271028037383,
+      "weighted_f1": 0.7096651110108272
+    },
+    {
+      "n": 286,
+      "correct": 190,
+      "acc": 0.6643356643356644,
+      "acc_percent": "66.43%",
+      "main_tag": "",
+      "sub_tag": "Arrow_Cue",
+      "sub_sub_tag": "Triplet",
+      "macro_f1": 0.1990086432206713,
+      "micro_f1": 0.6643356643356644,
+      "weighted_f1": 0.6153342014007426
+    },
+    {
+      "n": 276,
+      "correct": 180,
+      "acc": 0.6521739130434783,
+      "acc_percent": "65.22%",
+      "main_tag": "",
+      "sub_tag": "Box_Cue",
+      "sub_sub_tag": "Triplet",
+      "macro_f1": 0.25992313507940307,
+      "micro_f1": 0.6521739130434783,
+      "weighted_f1": 0.6000307924247292
+    },
+    {
+      "n": 1120,
+      "correct": 718,
+      "acc": 0.6410714285714286,
+      "acc_percent": "64.11%",
+      "main_tag": "",
+      "sub_tag": "Box_Cue",
+      "sub_sub_tag": "Target",
+      "macro_f1": 0.5731063034945856,
+      "micro_f1": 0.6410714285714286,
+      "weighted_f1": 0.6665461122482756
+    },
+    {
+      "n": 666,
+      "correct": 396,
+      "acc": 0.5945945945945946,
+      "acc_percent": "59.46%",
+      "main_tag": "",
+      "sub_tag": "Arrow_Cue",
+      "sub_sub_tag": "anatomy",
+      "macro_f1": 0.5145457550085881,
+      "micro_f1": 0.5945945945945946,
+      "weighted_f1": 0.5861002680778277
+    },
+    {
+      "n": 1104,
+      "correct": 638,
+      "acc": 0.5778985507246377,
+      "acc_percent": "57.79%",
+      "main_tag": "",
+      "sub_tag": "Arrow_Cue",
+      "sub_sub_tag": "Target",
+      "macro_f1": 0.39155111311602214,
+      "micro_f1": 0.5778985507246377,
+      "weighted_f1": 0.6058371703597638
+    },
+    {
+      "n": 1394,
+      "correct": 749,
+      "acc": 0.5373027259684362,
+      "acc_percent": "53.73%",
+      "main_tag": "",
+      "sub_tag": "Position_Cue",
+      "sub_sub_tag": "anatomy_hop",
+      "macro_f1": 0.40621532388422354,
+      "micro_f1": 0.5373027259684362,
+      "weighted_f1": 0.4866467664900661
+    },
+    {
+      "n": 1526,
+      "correct": 798,
+      "acc": 0.5229357798165137,
+      "acc_percent": "52.29%",
+      "main_tag": "",
+      "sub_tag": "Word_Cue",
+      "sub_sub_tag": "anatomy_hop",
+      "macro_f1": 0.3865601735319391,
+      "micro_f1": 0.5229357798165137,
+      "weighted_f1": 0.4693036239922304
+    },
+    {
+      "n": 1326,
+      "correct": 678,
+      "acc": 0.5113122171945701,
+      "acc_percent": "51.13%",
+      "main_tag": "",
+      "sub_tag": "Box_Cue",
+      "sub_sub_tag": "anatomy_hop",
+      "macro_f1": 0.3947894719812825,
+      "micro_f1": 0.5113122171945701,
+      "weighted_f1": 0.47176862963572846
+    },
+    {
+      "n": 624,
+      "correct": 308,
+      "acc": 0.4935897435897436,
+      "acc_percent": "49.36%",
+      "main_tag": "",
+      "sub_tag": "Position_Cue",
+      "sub_sub_tag": "anatomy",
+      "macro_f1": 0.35761879739043173,
+      "micro_f1": 0.4935897435897436,
+      "weighted_f1": 0.44768878523753913
+    },
+    {
+      "n": 1354,
+      "correct": 638,
+      "acc": 0.4711964549483013,
+      "acc_percent": "47.12%",
+      "main_tag": "",
+      "sub_tag": "Arrow_Cue",
+      "sub_sub_tag": "anatomy_hop",
+      "macro_f1": 0.3884565159903688,
+      "micro_f1": 0.47119645494830137,
+      "weighted_f1": 0.4548314130002712
+    }
+  ],
+  "per_file": [
+    {
+      "input_file": "lora-infer/pitvqa_fair_word_general.csv",
+      "num_samples": 1898,
+      "correct": 1527,
+      "accuracy": 0.8045310853530031,
+      "accuracy_percent": "80.45%",
+      "macro_f1": 0.6969721353633158,
+      "micro_f1": 0.8045310853530031,
+      "weighted_f1": 0.7856601952791731,
+      "num_classes": 16,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 1527,
+          "acc": 0.8045310853530031,
+          "acc_percent": "80.45%",
+          "key": "",
+          "f1": 0.6969721353633158
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 1527,
+          "acc": 0.8045310853530031,
+          "acc_percent": "80.45%",
+          "key": "Word_Cue",
+          "f1": 0.6969721353633158
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 435,
+          "acc": 0.9753363228699552,
+          "acc_percent": "97.53%",
+          "key": "Instrument",
+          "f1": 0.7548682871723177
+        },
+        {
+          "n": 446,
+          "correct": 428,
+          "acc": 0.9596412556053812,
+          "acc_percent": "95.96%",
+          "key": "Action",
+          "f1": 0.8417283099943615
+        },
+        {
+          "n": 446,
+          "correct": 370,
+          "acc": 0.8295964125560538,
+          "acc_percent": "82.96%",
+          "key": "Target",
+          "f1": 0.7007685249533075
+        },
+        {
+          "n": 560,
+          "correct": 294,
+          "acc": 0.525,
+          "acc_percent": "52.50%",
+          "key": "anatomy_hop",
+          "f1": 0.37558485679412607
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 435,
+          "acc": 0.9753363228699552,
+          "acc_percent": "97.53%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.7548682871723177,
+          "micro_f1": 0.9753363228699552,
+          "weighted_f1": 0.9746178018257574
+        },
+        {
+          "n": 446,
+          "correct": 428,
+          "acc": 0.9596412556053812,
+          "acc_percent": "95.96%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.8417283099943615,
+          "micro_f1": 0.9596412556053812,
+          "weighted_f1": 0.9591354840843223
+        },
+        {
+          "n": 446,
+          "correct": 370,
+          "acc": 0.8295964125560538,
+          "acc_percent": "82.96%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.7007685249533075,
+          "micro_f1": 0.8295964125560538,
+          "weighted_f1": 0.827563166020955
+        },
+        {
+          "n": 560,
+          "correct": 294,
+          "acc": 0.525,
+          "acc_percent": "52.50%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.37558485679412607,
+          "micro_f1": 0.525,
+          "weighted_f1": 0.46017661834591866
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/pitvqa_fair_position_general.csv",
+      "num_samples": 1898,
+      "correct": 1524,
+      "accuracy": 0.8029504741833509,
+      "accuracy_percent": "80.30%",
+      "macro_f1": 0.6949894234018853,
+      "micro_f1": 0.8029504741833509,
+      "weighted_f1": 0.7826685417808027,
+      "num_classes": 16,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 1524,
+          "acc": 0.8029504741833509,
+          "acc_percent": "80.30%",
+          "key": "",
+          "f1": 0.6949894234018853
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 1524,
+          "acc": 0.8029504741833509,
+          "acc_percent": "80.30%",
+          "key": "Position_Cue",
+          "f1": 0.6949894234018853
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 434,
+          "acc": 0.9730941704035875,
+          "acc_percent": "97.31%",
+          "key": "Instrument",
+          "f1": 0.753499565085367
+        },
+        {
+          "n": 446,
+          "correct": 429,
+          "acc": 0.9618834080717489,
+          "acc_percent": "96.19%",
+          "key": "Action",
+          "f1": 0.8345484503962013
+        },
+        {
+          "n": 446,
+          "correct": 366,
+          "acc": 0.820627802690583,
+          "acc_percent": "82.06%",
+          "key": "Target",
+          "f1": 0.6727577985214199
+        },
+        {
+          "n": 560,
+          "correct": 295,
+          "acc": 0.5267857142857143,
+          "acc_percent": "52.68%",
+          "key": "anatomy_hop",
+          "f1": 0.39004845247736597
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 434,
+          "acc": 0.9730941704035875,
+          "acc_percent": "97.31%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.753499565085367,
+          "micro_f1": 0.9730941704035875,
+          "weighted_f1": 0.9718204034253906
+        },
+        {
+          "n": 446,
+          "correct": 429,
+          "acc": 0.9618834080717489,
+          "acc_percent": "96.19%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.8345484503962013,
+          "micro_f1": 0.9618834080717489,
+          "weighted_f1": 0.9591443776378684
+        },
+        {
+          "n": 446,
+          "correct": 366,
+          "acc": 0.820627802690583,
+          "acc_percent": "82.06%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.6727577985214199,
+          "micro_f1": 0.820627802690583,
+          "weighted_f1": 0.8152772764821158
+        },
+        {
+          "n": 560,
+          "correct": 295,
+          "acc": 0.5267857142857143,
+          "acc_percent": "52.68%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.39004845247736597,
+          "micro_f1": 0.5267857142857143,
+          "weighted_f1": 0.4661752754930849
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/pitvqa_fair_box_general.csv",
+      "num_samples": 1898,
+      "correct": 1519,
+      "accuracy": 0.8003161222339304,
+      "accuracy_percent": "80.03%",
+      "macro_f1": 0.6675008070083979,
+      "micro_f1": 0.8003161222339304,
+      "weighted_f1": 0.7834637130355216,
+      "num_classes": 16,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 1519,
+          "acc": 0.8003161222339304,
+          "acc_percent": "80.03%",
+          "key": "",
+          "f1": 0.6675008070083979
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 1519,
+          "acc": 0.8003161222339304,
+          "acc_percent": "80.03%",
+          "key": "Box_Cue",
+          "f1": 0.6675008070083979
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 433,
+          "acc": 0.9708520179372198,
+          "acc_percent": "97.09%",
+          "key": "Instrument",
+          "f1": 0.7073845613591327
+        },
+        {
+          "n": 446,
+          "correct": 429,
+          "acc": 0.9618834080717489,
+          "acc_percent": "96.19%",
+          "key": "Action",
+          "f1": 0.8002577357031317
+        },
+        {
+          "n": 446,
+          "correct": 367,
+          "acc": 0.8228699551569507,
+          "acc_percent": "82.29%",
+          "key": "Target",
+          "f1": 0.6964004061468803
+        },
+        {
+          "n": 560,
+          "correct": 290,
+          "acc": 0.5178571428571429,
+          "acc_percent": "51.79%",
+          "key": "anatomy_hop",
+          "f1": 0.3823136253746461
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 433,
+          "acc": 0.9708520179372198,
+          "acc_percent": "97.09%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.7073845613591327,
+          "micro_f1": 0.9708520179372198,
+          "weighted_f1": 0.9694295711275542
+        },
+        {
+          "n": 446,
+          "correct": 429,
+          "acc": 0.9618834080717489,
+          "acc_percent": "96.19%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.8002577357031317,
+          "micro_f1": 0.9618834080717489,
+          "weighted_f1": 0.9557097421863947
+        },
+        {
+          "n": 446,
+          "correct": 367,
+          "acc": 0.8228699551569507,
+          "acc_percent": "82.29%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.6964004061468803,
+          "micro_f1": 0.8228699551569507,
+          "weighted_f1": 0.8232936724444548
+        },
+        {
+          "n": 560,
+          "correct": 290,
+          "acc": 0.5178571428571429,
+          "acc_percent": "51.79%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.3823136253746461,
+          "micro_f1": 0.5178571428571429,
+          "weighted_f1": 0.46330169070544075
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/pitvqa_fair_word_less_bias.csv",
+      "num_samples": 1898,
+      "correct": 1508,
+      "accuracy": 0.7945205479452054,
+      "accuracy_percent": "79.45%",
+      "macro_f1": 0.6704421814340672,
+      "micro_f1": 0.7945205479452053,
+      "weighted_f1": 0.7789183184761165,
+      "num_classes": 16,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 1508,
+          "acc": 0.7945205479452054,
+          "acc_percent": "79.45%",
+          "key": "",
+          "f1": 0.6704421814340672
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 1508,
+          "acc": 0.7945205479452054,
+          "acc_percent": "79.45%",
+          "key": "Word_Cue",
+          "f1": 0.6704421814340672
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 431,
+          "acc": 0.9663677130044843,
+          "acc_percent": "96.64%",
+          "key": "Instrument",
+          "f1": 0.7760082440977606
+        },
+        {
+          "n": 446,
+          "correct": 419,
+          "acc": 0.9394618834080718,
+          "acc_percent": "93.95%",
+          "key": "Action",
+          "f1": 0.7246601347487417
+        },
+        {
+          "n": 446,
+          "correct": 366,
+          "acc": 0.820627802690583,
+          "acc_percent": "82.06%",
+          "key": "Target",
+          "f1": 0.682536768195155
+        },
+        {
+          "n": 560,
+          "correct": 292,
+          "acc": 0.5214285714285715,
+          "acc_percent": "52.14%",
+          "key": "anatomy_hop",
+          "f1": 0.39708180210069804
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 431,
+          "acc": 0.9663677130044843,
+          "acc_percent": "96.64%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.7760082440977606,
+          "micro_f1": 0.9663677130044843,
+          "weighted_f1": 0.9666370241370418
+        },
+        {
+          "n": 446,
+          "correct": 419,
+          "acc": 0.9394618834080718,
+          "acc_percent": "93.95%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.7246601347487417,
+          "micro_f1": 0.9394618834080718,
+          "weighted_f1": 0.9379199541110932
+        },
+        {
+          "n": 446,
+          "correct": 366,
+          "acc": 0.820627802690583,
+          "acc_percent": "82.06%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.682536768195155,
+          "micro_f1": 0.820627802690583,
+          "weighted_f1": 0.8173580852130711
+        },
+        {
+          "n": 560,
+          "correct": 292,
+          "acc": 0.5214285714285715,
+          "acc_percent": "52.14%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.39708180210069804,
+          "micro_f1": 0.5214285714285715,
+          "weighted_f1": 0.4789341675604767
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/pitvqa_fair_arrow_general.csv",
+      "num_samples": 1898,
+      "correct": 1491,
+      "accuracy": 0.7855637513171759,
+      "accuracy_percent": "78.56%",
+      "macro_f1": 0.6911983393688321,
+      "micro_f1": 0.7855637513171759,
+      "weighted_f1": 0.7734075914017894,
+      "num_classes": 16,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 1491,
+          "acc": 0.7855637513171759,
+          "acc_percent": "78.56%",
+          "key": "",
+          "f1": 0.6911983393688321
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 1491,
+          "acc": 0.7855637513171759,
+          "acc_percent": "78.56%",
+          "key": "Arrow_Cue",
+          "f1": 0.6911983393688321
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 432,
+          "acc": 0.968609865470852,
+          "acc_percent": "96.86%",
+          "key": "Instrument",
+          "f1": 0.7330259601842336
+        },
+        {
+          "n": 446,
+          "correct": 432,
+          "acc": 0.968609865470852,
+          "acc_percent": "96.86%",
+          "key": "Action",
+          "f1": 0.8611955832753406
+        },
+        {
+          "n": 446,
+          "correct": 359,
+          "acc": 0.804932735426009,
+          "acc_percent": "80.49%",
+          "key": "Target",
+          "f1": 0.6444075266673366
+        },
+        {
+          "n": 560,
+          "correct": 268,
+          "acc": 0.4785714285714286,
+          "acc_percent": "47.86%",
+          "key": "anatomy_hop",
+          "f1": 0.3799112244366124
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 432,
+          "acc": 0.968609865470852,
+          "acc_percent": "96.86%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.7330259601842336,
+          "micro_f1": 0.968609865470852,
+          "weighted_f1": 0.9688424532635262
+        },
+        {
+          "n": 446,
+          "correct": 432,
+          "acc": 0.968609865470852,
+          "acc_percent": "96.86%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.8611955832753406,
+          "micro_f1": 0.968609865470852,
+          "weighted_f1": 0.9658575080856405
+        },
+        {
+          "n": 446,
+          "correct": 359,
+          "acc": 0.804932735426009,
+          "acc_percent": "80.49%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.6444075266673366,
+          "micro_f1": 0.8049327354260088,
+          "weighted_f1": 0.7999482455262901
+        },
+        {
+          "n": 560,
+          "correct": 268,
+          "acc": 0.4785714285714286,
+          "acc_percent": "47.86%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.3799112244366124,
+          "micro_f1": 0.4785714285714286,
+          "weighted_f1": 0.4472136162409952
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/pitvqa_results_general.csv",
+      "num_samples": 4945,
+      "correct": 3662,
+      "accuracy": 0.740546006066734,
+      "accuracy_percent": "74.05%",
+      "macro_f1": 0.5002957835790658,
+      "micro_f1": 0.740546006066734,
+      "weighted_f1": 0.7267960896053668,
+      "num_classes": 41,
+      "by_main_tag": [
+        {
+          "n": 4945,
+          "correct": 3662,
+          "acc": 0.740546006066734,
+          "acc_percent": "74.05%",
+          "key": "",
+          "f1": 0.5002957835790658
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 845,
+          "correct": 710,
+          "acc": 0.8402366863905325,
+          "acc_percent": "84.02%",
+          "key": "Word_Cue",
+          "f1": 0.6837036601631776
+        },
+        {
+          "n": 846,
+          "correct": 630,
+          "acc": 0.7446808510638298,
+          "acc_percent": "74.47%",
+          "key": "Box_Cue",
+          "f1": 0.5538499450285591
+        },
+        {
+          "n": 1560,
+          "correct": 1153,
+          "acc": 0.7391025641025641,
+          "acc_percent": "73.91%",
+          "key": "No_Cue",
+          "f1": 0.6966259173528201
+        },
+        {
+          "n": 847,
+          "correct": 596,
+          "acc": 0.7036599763872491,
+          "acc_percent": "70.37%",
+          "key": "Arrow_Cue",
+          "f1": 0.48553703962210276
+        },
+        {
+          "n": 847,
+          "correct": 573,
+          "acc": 0.6765053128689492,
+          "acc_percent": "67.65%",
+          "key": "Position_Cue",
+          "f1": 0.5340212107118765
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 429,
+          "acc": 0.9618834080717489,
+          "acc_percent": "96.19%",
+          "key": "Action",
+          "f1": 0.8292331045137459
+        },
+        {
+          "n": 498,
+          "correct": 475,
+          "acc": 0.9538152610441767,
+          "acc_percent": "95.38%",
+          "key": "Instrument",
+          "f1": 0.7273903385527434
+        },
+        {
+          "n": 312,
+          "correct": 255,
+          "acc": 0.8173076923076923,
+          "acc_percent": "81.73%",
+          "key": "Instrument_Count",
+          "f1": 0.7189622257556056
+        },
+        {
+          "n": 446,
+          "correct": 363,
+          "acc": 0.8139013452914798,
+          "acc_percent": "81.39%",
+          "key": "Target",
+          "f1": 0.67363870747792
+        },
+        {
+          "n": 446,
+          "correct": 352,
+          "acc": 0.7892376681614349,
+          "acc_percent": "78.92%",
+          "key": "Triplet",
+          "f1": 0.27230783821225674
+        },
+        {
+          "n": 1248,
+          "correct": 898,
+          "acc": 0.719551282051282,
+          "acc_percent": "71.96%",
+          "key": "CVS",
+          "f1": 0.6519533005472493
+        },
+        {
+          "n": 989,
+          "correct": 594,
+          "acc": 0.6006066734074823,
+          "acc_percent": "60.06%",
+          "key": "anatomy",
+          "f1": 0.5329599722603986
+        },
+        {
+          "n": 560,
+          "correct": 296,
+          "acc": 0.5285714285714286,
+          "acc_percent": "52.86%",
+          "key": "anatomy_hop",
+          "f1": 0.40874670234166055
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 202,
+          "correct": 197,
+          "acc": 0.9752475247524752,
+          "acc_percent": "97.52%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.8527760449157828,
+          "micro_f1": 0.9752475247524752,
+          "weighted_f1": 0.9735335355120042
+        },
+        {
+          "n": 75,
+          "correct": 73,
+          "acc": 0.9733333333333334,
+          "acc_percent": "97.33%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.7200019158923269,
+          "micro_f1": 0.9733333333333334,
+          "weighted_f1": 0.9672614873710764
+        },
+        {
+          "n": 303,
+          "correct": 293,
+          "acc": 0.966996699669967,
+          "acc_percent": "96.70%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.7172737475767779,
+          "micro_f1": 0.966996699669967,
+          "weighted_f1": 0.9663678489061027
+        },
+        {
+          "n": 83,
+          "correct": 79,
+          "acc": 0.9518072289156626,
+          "acc_percent": "95.18%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.7040487394575916,
+          "micro_f1": 0.9518072289156626,
+          "weighted_f1": 0.9542544453199828
+        },
+        {
+          "n": 64,
+          "correct": 60,
+          "acc": 0.9375,
+          "acc_percent": "93.75%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.8758505111446289,
+          "micro_f1": 0.9375,
+          "weighted_f1": 0.934247737556561
+        },
+        {
+          "n": 73,
+          "correct": 68,
+          "acc": 0.9315068493150684,
+          "acc_percent": "93.15%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.8925512014191259,
+          "micro_f1": 0.9315068493150684,
+          "weighted_f1": 0.931313221685411
+        },
+        {
+          "n": 58,
+          "correct": 54,
+          "acc": 0.9310344827586207,
+          "acc_percent": "93.10%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.6920024420024419,
+          "micro_f1": 0.9310344827586207,
+          "weighted_f1": 0.9160982695465454
+        },
+        {
+          "n": 86,
+          "correct": 80,
+          "acc": 0.9302325581395349,
+          "acc_percent": "93.02%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.7877551020408163,
+          "micro_f1": 0.9302325581395349,
+          "weighted_f1": 0.9411485524442335
+        },
+        {
+          "n": 165,
+          "correct": 136,
+          "acc": 0.8242424242424242,
+          "acc_percent": "82.42%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Triplet",
+          "macro_f1": 0.3805151077878351,
+          "micro_f1": 0.8242424242424242,
+          "weighted_f1": 0.8046023000568454
+        },
+        {
+          "n": 137,
+          "correct": 112,
+          "acc": 0.8175182481751825,
+          "acc_percent": "81.75%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.6738789073911774,
+          "micro_f1": 0.8175182481751826,
+          "weighted_f1": 0.8121557476154225
+        },
+        {
+          "n": 312,
+          "correct": 255,
+          "acc": 0.8173076923076923,
+          "acc_percent": "81.73%",
+          "main_tag": "",
+          "sub_tag": "No_Cue",
+          "sub_sub_tag": "Instrument_Count",
+          "macro_f1": 0.7189622257556056,
+          "micro_f1": 0.8173076923076923,
+          "weighted_f1": 0.8134110471322862
+        },
+        {
+          "n": 114,
+          "correct": 93,
+          "acc": 0.8157894736842105,
+          "acc_percent": "81.58%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.6856984406602727,
+          "micro_f1": 0.8157894736842104,
+          "weighted_f1": 0.8216414331319916
+        },
+        {
+          "n": 106,
+          "correct": 86,
+          "acc": 0.8113207547169812,
+          "acc_percent": "81.13%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.6545922443680359,
+          "micro_f1": 0.8113207547169812,
+          "weighted_f1": 0.8085733156061539
+        },
+        {
+          "n": 89,
+          "correct": 72,
+          "acc": 0.8089887640449438,
+          "acc_percent": "80.90%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.6890332640332639,
+          "micro_f1": 0.8089887640449437,
+          "weighted_f1": 0.8091149057441193
+        },
+        {
+          "n": 143,
+          "correct": 111,
+          "acc": 0.7762237762237763,
+          "acc_percent": "77.62%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Triplet",
+          "macro_f1": 0.27486346283814633,
+          "micro_f1": 0.7762237762237763,
+          "weighted_f1": 0.7692942845416955
+        },
+        {
+          "n": 138,
+          "correct": 105,
+          "acc": 0.7608695652173914,
+          "acc_percent": "76.09%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Triplet",
+          "macro_f1": 0.3614347540818129,
+          "micro_f1": 0.7608695652173914,
+          "weighted_f1": 0.7487006187773452
+        },
+        {
+          "n": 1248,
+          "correct": 898,
+          "acc": 0.719551282051282,
+          "acc_percent": "71.96%",
+          "main_tag": "",
+          "sub_tag": "No_Cue",
+          "sub_sub_tag": "CVS",
+          "macro_f1": 0.6519533005472493,
+          "micro_f1": 0.719551282051282,
+          "weighted_f1": 0.6984115496536573
+        },
+        {
+          "n": 344,
+          "correct": 242,
+          "acc": 0.7034883720930233,
+          "acc_percent": "70.35%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "anatomy",
+          "macro_f1": 0.6613316795613453,
+          "micro_f1": 0.7034883720930233,
+          "weighted_f1": 0.7040621703416234
+        },
+        {
+          "n": 333,
+          "correct": 198,
+          "acc": 0.5945945945945946,
+          "acc_percent": "59.46%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "anatomy",
+          "macro_f1": 0.5145457550085881,
+          "micro_f1": 0.5945945945945946,
+          "weighted_f1": 0.5861002680778277
+        },
+        {
+          "n": 137,
+          "correct": 77,
+          "acc": 0.5620437956204379,
+          "acc_percent": "56.20%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.42810877964958927,
+          "micro_f1": 0.5620437956204379,
+          "weighted_f1": 0.5112074389606419
+        },
+        {
+          "n": 203,
+          "correct": 108,
+          "acc": 0.5320197044334976,
+          "acc_percent": "53.20%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.3893247482632837,
+          "micro_f1": 0.5320197044334976,
+          "weighted_f1": 0.46935964020398924
+        },
+        {
+          "n": 117,
+          "correct": 60,
+          "acc": 0.5128205128205128,
+          "acc_percent": "51.28%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.43459924408516815,
+          "micro_f1": 0.5128205128205128,
+          "weighted_f1": 0.4916179892877002
+        },
+        {
+          "n": 103,
+          "correct": 51,
+          "acc": 0.49514563106796117,
+          "acc_percent": "49.51%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.36969986129047683,
+          "micro_f1": 0.49514563106796117,
+          "weighted_f1": 0.44024901540386197
+        },
+        {
+          "n": 312,
+          "correct": 154,
+          "acc": 0.4935897435897436,
+          "acc_percent": "49.36%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "anatomy",
+          "macro_f1": 0.35761879739043173,
+          "micro_f1": 0.4935897435897436,
+          "weighted_f1": 0.44768878523753913
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/pitvqa_results_less_bias.csv",
+      "num_samples": 4945,
+      "correct": 3304,
+      "accuracy": 0.668149646107179,
+      "accuracy_percent": "66.81%",
+      "macro_f1": 0.3843663535875843,
+      "micro_f1": 0.668149646107179,
+      "weighted_f1": 0.6497595176195609,
+      "num_classes": 41,
+      "by_main_tag": [
+        {
+          "n": 4945,
+          "correct": 3304,
+          "acc": 0.668149646107179,
+          "acc_percent": "66.81%",
+          "key": "",
+          "f1": 0.3843663535875843
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 845,
+          "correct": 703,
+          "acc": 0.8319526627218935,
+          "acc_percent": "83.20%",
+          "key": "Word_Cue",
+          "f1": 0.6635616761371863
+        },
+        {
+          "n": 1560,
+          "correct": 1153,
+          "acc": 0.7391025641025641,
+          "acc_percent": "73.91%",
+          "key": "No_Cue",
+          "f1": 0.6966259173528201
+        },
+        {
+          "n": 847,
+          "correct": 498,
+          "acc": 0.5879574970484062,
+          "acc_percent": "58.80%",
+          "key": "Position_Cue",
+          "f1": 0.3963231423804042
+        },
+        {
+          "n": 846,
+          "correct": 497,
+          "acc": 0.5874704491725768,
+          "acc_percent": "58.75%",
+          "key": "Box_Cue",
+          "f1": 0.3444248009488705
+        },
+        {
+          "n": 847,
+          "correct": 453,
+          "acc": 0.5348288075560803,
+          "acc_percent": "53.48%",
+          "key": "Arrow_Cue",
+          "f1": 0.2849341208988384
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 498,
+          "correct": 411,
+          "acc": 0.8253012048192772,
+          "acc_percent": "82.53%",
+          "key": "Instrument",
+          "f1": 0.3587591901538846
+        },
+        {
+          "n": 312,
+          "correct": 255,
+          "acc": 0.8173076923076923,
+          "acc_percent": "81.73%",
+          "key": "Instrument_Count",
+          "f1": 0.7189622257556056
+        },
+        {
+          "n": 446,
+          "correct": 349,
+          "acc": 0.7825112107623319,
+          "acc_percent": "78.25%",
+          "key": "Action",
+          "f1": 0.5787571033406584
+        },
+        {
+          "n": 1248,
+          "correct": 898,
+          "acc": 0.719551282051282,
+          "acc_percent": "71.96%",
+          "key": "CVS",
+          "f1": 0.6519533005472493
+        },
+        {
+          "n": 989,
+          "correct": 594,
+          "acc": 0.6006066734074823,
+          "acc_percent": "60.06%",
+          "key": "anatomy",
+          "f1": 0.5329599722603986
+        },
+        {
+          "n": 446,
+          "correct": 259,
+          "acc": 0.5807174887892377,
+          "acc_percent": "58.07%",
+          "key": "Triplet",
+          "f1": 0.12165374742311802
+        },
+        {
+          "n": 446,
+          "correct": 253,
+          "acc": 0.5672645739910314,
+          "acc_percent": "56.73%",
+          "key": "Target",
+          "f1": 0.41092472930492485
+        },
+        {
+          "n": 560,
+          "correct": 285,
+          "acc": 0.5089285714285714,
+          "acc_percent": "50.89%",
+          "key": "anatomy_hop",
+          "f1": 0.40430721499306654
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 303,
+          "correct": 293,
+          "acc": 0.966996699669967,
+          "acc_percent": "96.70%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.7641558441558441,
+          "micro_f1": 0.966996699669967,
+          "weighted_f1": 0.966972697269727
+        },
+        {
+          "n": 202,
+          "correct": 194,
+          "acc": 0.9603960396039604,
+          "acc_percent": "96.04%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.7402994495783467,
+          "micro_f1": 0.9603960396039604,
+          "weighted_f1": 0.9563020254456895
+        },
+        {
+          "n": 137,
+          "correct": 112,
+          "acc": 0.8175182481751825,
+          "acc_percent": "81.75%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.6688531123265044,
+          "micro_f1": 0.8175182481751826,
+          "weighted_f1": 0.8088631810658945
+        },
+        {
+          "n": 312,
+          "correct": 255,
+          "acc": 0.8173076923076923,
+          "acc_percent": "81.73%",
+          "main_tag": "",
+          "sub_tag": "No_Cue",
+          "sub_sub_tag": "Instrument_Count",
+          "macro_f1": 0.7189622257556056,
+          "micro_f1": 0.8173076923076923,
+          "weighted_f1": 0.8134110471322862
+        },
+        {
+          "n": 86,
+          "correct": 66,
+          "acc": 0.7674418604651163,
+          "acc_percent": "76.74%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.4642763772175537,
+          "micro_f1": 0.7674418604651162,
+          "weighted_f1": 0.7493453195231581
+        },
+        {
+          "n": 58,
+          "correct": 43,
+          "acc": 0.7413793103448276,
+          "acc_percent": "74.14%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.40798090798090797,
+          "micro_f1": 0.7413793103448276,
+          "weighted_f1": 0.7508181473698714
+        },
+        {
+          "n": 1248,
+          "correct": 898,
+          "acc": 0.719551282051282,
+          "acc_percent": "71.96%",
+          "main_tag": "",
+          "sub_tag": "No_Cue",
+          "sub_sub_tag": "CVS",
+          "macro_f1": 0.6519533005472493,
+          "micro_f1": 0.719551282051282,
+          "weighted_f1": 0.6984115496536573
+        },
+        {
+          "n": 344,
+          "correct": 242,
+          "acc": 0.7034883720930233,
+          "acc_percent": "70.35%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "anatomy",
+          "macro_f1": 0.6613316795613453,
+          "micro_f1": 0.7034883720930233,
+          "weighted_f1": 0.7040621703416234
+        },
+        {
+          "n": 165,
+          "correct": 105,
+          "acc": 0.6363636363636364,
+          "acc_percent": "63.64%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Triplet",
+          "macro_f1": 0.23163704233619486,
+          "micro_f1": 0.6363636363636364,
+          "weighted_f1": 0.5568925831059884
+        },
+        {
+          "n": 89,
+          "correct": 53,
+          "acc": 0.5955056179775281,
+          "acc_percent": "59.55%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.5759438881935752,
+          "micro_f1": 0.5955056179775281,
+          "weighted_f1": 0.6126323634880679
+        },
+        {
+          "n": 333,
+          "correct": 198,
+          "acc": 0.5945945945945946,
+          "acc_percent": "59.46%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "anatomy",
+          "macro_f1": 0.5145457550085881,
+          "micro_f1": 0.5945945945945946,
+          "weighted_f1": 0.5861002680778277
+        },
+        {
+          "n": 64,
+          "correct": 37,
+          "acc": 0.578125,
+          "acc_percent": "57.81%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.5237309152910176,
+          "micro_f1": 0.578125,
+          "weighted_f1": 0.5812587189025807
+        },
+        {
+          "n": 75,
+          "correct": 43,
+          "acc": 0.5733333333333334,
+          "acc_percent": "57.33%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.41619958988380035,
+          "micro_f1": 0.5733333333333334,
+          "weighted_f1": 0.5516457811194653
+        },
+        {
+          "n": 137,
+          "correct": 77,
+          "acc": 0.5620437956204379,
+          "acc_percent": "56.20%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.4329704493997598,
+          "micro_f1": 0.5620437956204379,
+          "weighted_f1": 0.5225214991637692
+        },
+        {
+          "n": 83,
+          "correct": 46,
+          "acc": 0.5542168674698795,
+          "acc_percent": "55.42%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.3976417233560091,
+          "micro_f1": 0.5542168674698795,
+          "weighted_f1": 0.5516597000245882
+        },
+        {
+          "n": 143,
+          "correct": 79,
+          "acc": 0.5524475524475524,
+          "acc_percent": "55.24%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Triplet",
+          "macro_f1": 0.11125434587288566,
+          "micro_f1": 0.5524475524475524,
+          "weighted_f1": 0.4235119542748747
+        },
+        {
+          "n": 138,
+          "correct": 75,
+          "acc": 0.5434782608695652,
+          "acc_percent": "54.35%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Triplet",
+          "macro_f1": 0.14486502803721218,
+          "micro_f1": 0.5434782608695652,
+          "weighted_f1": 0.4253670052980169
+        },
+        {
+          "n": 73,
+          "correct": 38,
+          "acc": 0.5205479452054794,
+          "acc_percent": "52.05%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.4323809523809524,
+          "micro_f1": 0.5205479452054794,
+          "weighted_f1": 0.5240182648401827
+        },
+        {
+          "n": 203,
+          "correct": 104,
+          "acc": 0.5123152709359606,
+          "acc_percent": "51.23%",
+          "main_tag": "",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.3832168964271927,
+          "micro_f1": 0.5123152709359606,
+          "weighted_f1": 0.4674151804328823
+        },
+        {
+          "n": 312,
+          "correct": 154,
+          "acc": 0.4935897435897436,
+          "acc_percent": "49.36%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "anatomy",
+          "macro_f1": 0.35761879739043173,
+          "micro_f1": 0.4935897435897436,
+          "weighted_f1": 0.44768878523753913
+        },
+        {
+          "n": 117,
+          "correct": 56,
+          "acc": 0.47863247863247865,
+          "acc_percent": "47.86%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.40155465002614293,
+          "micro_f1": 0.47863247863247865,
+          "weighted_f1": 0.4761891837567006
+        },
+        {
+          "n": 103,
+          "correct": 48,
+          "acc": 0.46601941747572817,
+          "acc_percent": "46.60%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.3762925241435628,
+          "micro_f1": 0.46601941747572817,
+          "weighted_f1": 0.4440033798152444
+        },
+        {
+          "n": 114,
+          "correct": 49,
+          "acc": 0.4298245614035088,
+          "acc_percent": "42.98%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.4613181778130232,
+          "micro_f1": 0.4298245614035088,
+          "weighted_f1": 0.46372738613650183
+        },
+        {
+          "n": 106,
+          "correct": 39,
+          "acc": 0.36792452830188677,
+          "acc_percent": "36.79%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.2738399352702784,
+          "micro_f1": 0.36792452830188677,
+          "weighted_f1": 0.3878678371295779
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/pitvqa_fair_position_less_bias.csv",
+      "num_samples": 1898,
+      "correct": 1203,
+      "accuracy": 0.6338250790305585,
+      "accuracy_percent": "63.38%",
+      "macro_f1": 0.42767413364074275,
+      "micro_f1": 0.6338250790305585,
+      "weighted_f1": 0.6282406253357062,
+      "num_classes": 19,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 1203,
+          "acc": 0.6338250790305585,
+          "acc_percent": "63.38%",
+          "key": "",
+          "f1": 0.42767413364074275
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 1203,
+          "acc": 0.6338250790305585,
+          "acc_percent": "63.38%",
+          "key": "Position_Cue",
+          "f1": 0.42767413364074275
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 334,
+          "acc": 0.7488789237668162,
+          "acc_percent": "74.89%",
+          "key": "Action",
+          "f1": 0.5381294236602628
+        },
+        {
+          "n": 446,
+          "correct": 316,
+          "acc": 0.7085201793721974,
+          "acc_percent": "70.85%",
+          "key": "Instrument",
+          "f1": 0.30429574648187213
+        },
+        {
+          "n": 446,
+          "correct": 253,
+          "acc": 0.5672645739910314,
+          "acc_percent": "56.73%",
+          "key": "Target",
+          "f1": 0.5128020583038349
+        },
+        {
+          "n": 560,
+          "correct": 300,
+          "acc": 0.5357142857142857,
+          "acc_percent": "53.57%",
+          "key": "anatomy_hop",
+          "f1": 0.4092957190195349
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 334,
+          "acc": 0.7488789237668162,
+          "acc_percent": "74.89%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.5381294236602628,
+          "micro_f1": 0.7488789237668162,
+          "weighted_f1": 0.7413906268116482
+        },
+        {
+          "n": 446,
+          "correct": 316,
+          "acc": 0.7085201793721974,
+          "acc_percent": "70.85%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.30429574648187213,
+          "micro_f1": 0.7085201793721974,
+          "weighted_f1": 0.7431259392703313
+        },
+        {
+          "n": 446,
+          "correct": 253,
+          "acc": 0.5672645739910314,
+          "acc_percent": "56.73%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.5128020583038349,
+          "micro_f1": 0.5672645739910314,
+          "weighted_f1": 0.5875792312920601
+        },
+        {
+          "n": 560,
+          "correct": 300,
+          "acc": 0.5357142857142857,
+          "acc_percent": "53.57%",
+          "main_tag": "",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.4092957190195349,
+          "micro_f1": 0.5357142857142857,
+          "weighted_f1": 0.4924147830100047
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/pitvqa_fair_box_less_bias.csv",
+      "num_samples": 1898,
+      "correct": 1037,
+      "accuracy": 0.5463645943097998,
+      "accuracy_percent": "54.64%",
+      "macro_f1": 0.33890736729602666,
+      "micro_f1": 0.5463645943097998,
+      "weighted_f1": 0.5481994691227368,
+      "num_classes": 19,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 1037,
+          "acc": 0.5463645943097998,
+          "acc_percent": "54.64%",
+          "key": "",
+          "f1": 0.33890736729602666
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 1037,
+          "acc": 0.5463645943097998,
+          "acc_percent": "54.64%",
+          "key": "Box_Cue",
+          "f1": 0.33890736729602666
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 281,
+          "acc": 0.6300448430493274,
+          "acc_percent": "63.00%",
+          "key": "Action",
+          "f1": 0.39214279404290564
+        },
+        {
+          "n": 446,
+          "correct": 258,
+          "acc": 0.57847533632287,
+          "acc_percent": "57.85%",
+          "key": "Instrument",
+          "f1": 0.279771591336858
+        },
+        {
+          "n": 560,
+          "correct": 289,
+          "acc": 0.5160714285714286,
+          "acc_percent": "51.61%",
+          "key": "anatomy_hop",
+          "f1": 0.4067172651585233
+        },
+        {
+          "n": 446,
+          "correct": 209,
+          "acc": 0.46860986547085204,
+          "acc_percent": "46.86%",
+          "key": "Target",
+          "f1": 0.4575908113347073
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 281,
+          "acc": 0.6300448430493274,
+          "acc_percent": "63.00%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.39214279404290564,
+          "micro_f1": 0.6300448430493274,
+          "weighted_f1": 0.6165067214515897
+        },
+        {
+          "n": 446,
+          "correct": 258,
+          "acc": 0.57847533632287,
+          "acc_percent": "57.85%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.279771591336858,
+          "micro_f1": 0.57847533632287,
+          "weighted_f1": 0.609388072619992
+        },
+        {
+          "n": 560,
+          "correct": 289,
+          "acc": 0.5160714285714286,
+          "acc_percent": "51.61%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.4067172651585233,
+          "micro_f1": 0.5160714285714286,
+          "weighted_f1": 0.4876046608918371
+        },
+        {
+          "n": 446,
+          "correct": 209,
+          "acc": 0.46860986547085204,
+          "acc_percent": "46.86%",
+          "main_tag": "",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.4575908113347073,
+          "micro_f1": 0.46860986547085204,
+          "weighted_f1": 0.4928371795082351
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/pitvqa_fair_arrow_less_bias.csv",
+      "num_samples": 1898,
+      "correct": 936,
+      "accuracy": 0.4931506849315068,
+      "accuracy_percent": "49.32%",
+      "macro_f1": 0.3227237432892406,
+      "micro_f1": 0.4931506849315068,
+      "weighted_f1": 0.49042147971387284,
+      "num_classes": 19,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 936,
+          "acc": 0.4931506849315068,
+          "acc_percent": "49.32%",
+          "key": "",
+          "f1": 0.3227237432892406
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 936,
+          "acc": 0.4931506849315068,
+          "acc_percent": "49.32%",
+          "key": "Arrow_Cue",
+          "f1": 0.3227237432892406
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 266,
+          "acc": 0.5964125560538116,
+          "acc_percent": "59.64%",
+          "key": "Action",
+          "f1": 0.3937428646053971
+        },
+        {
+          "n": 446,
+          "correct": 262,
+          "acc": 0.5874439461883408,
+          "acc_percent": "58.74%",
+          "key": "Instrument",
+          "f1": 0.27742961472853866
+        },
+        {
+          "n": 560,
+          "correct": 254,
+          "acc": 0.45357142857142857,
+          "acc_percent": "45.36%",
+          "key": "anatomy_hop",
+          "f1": 0.3829634248789991
+        },
+        {
+          "n": 446,
+          "correct": 154,
+          "acc": 0.3452914798206278,
+          "acc_percent": "34.53%",
+          "key": "Target",
+          "f1": 0.2552440700937172
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 266,
+          "acc": 0.5964125560538116,
+          "acc_percent": "59.64%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.3937428646053971,
+          "micro_f1": 0.5964125560538116,
+          "weighted_f1": 0.5723842699942866
+        },
+        {
+          "n": 446,
+          "correct": 262,
+          "acc": 0.5874439461883408,
+          "acc_percent": "58.74%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.27742961472853866,
+          "micro_f1": 0.5874439461883408,
+          "weighted_f1": 0.59372729961121
+        },
+        {
+          "n": 560,
+          "correct": 254,
+          "acc": 0.45357142857142857,
+          "acc_percent": "45.36%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.3829634248789991,
+          "micro_f1": 0.45357142857142857,
+          "weighted_f1": 0.4478838993682575
+        },
+        {
+          "n": 446,
+          "correct": 154,
+          "acc": 0.3452914798206278,
+          "acc_percent": "34.53%",
+          "main_tag": "",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.2552440700937172,
+          "micro_f1": 0.3452914798206278,
+          "weighted_f1": 0.33739067219417257
+        }
+      ]
+    }
+  ]
+}

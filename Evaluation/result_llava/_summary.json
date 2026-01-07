@@ -1,0 +1,2129 @@
+{
+  "in_dir": "output_llava",
+  "out_dir": "result_llava",
+  "num_files": 16,
+  "overall": {
+    "total_samples": 30374,
+    "total_correct": 9860,
+    "accuracy": 0.3246197405675907,
+    "accuracy_percent": "32.46%",
+    "macro_f1": 0.012600750618683536,
+    "micro_f1": 0.3246197405675907,
+    "weighted_f1": 0.41436348937764045,
+    "num_classes": 407
+  },
+  "by_main_tag": [
+    {
+      "n": 30374,
+      "correct": 9860,
+      "acc": 0.3246197405675907,
+      "acc_percent": "32.46%",
+      "key": "Visual_QA",
+      "macro_f1": 0.012600750618683536
+    }
+  ],
+  "by_sub_tag": [
+    {
+      "n": 7592,
+      "correct": 2805,
+      "acc": 0.3694678609062171,
+      "acc_percent": "36.95%",
+      "key": "Word_Cue",
+      "macro_f1": 0.03700215972926572
+    },
+    {
+      "n": 7594,
+      "correct": 2462,
+      "acc": 0.32420331840927047,
+      "acc_percent": "32.42%",
+      "key": "Position_Cue",
+      "macro_f1": 0.02110113477622318
+    },
+    {
+      "n": 7594,
+      "correct": 2305,
+      "acc": 0.30352910192257043,
+      "acc_percent": "30.35%",
+      "key": "Arrow_Cue",
+      "macro_f1": 0.029649041448475064
+    },
+    {
+      "n": 7594,
+      "correct": 2288,
+      "acc": 0.30129049249407425,
+      "acc_percent": "30.13%",
+      "key": "Box_Cue",
+      "macro_f1": 0.023373721704415637
+    }
+  ],
+  "by_sub_sub_tag": [
+    {
+      "n": 7139,
+      "correct": 3160,
+      "acc": 0.4426390250735397,
+      "acc_percent": "44.26%",
+      "key": "Instrument",
+      "macro_f1": 0.07950222183324523
+    },
+    {
+      "n": 7139,
+      "correct": 2665,
+      "acc": 0.3733015828547416,
+      "acc_percent": "37.33%",
+      "key": "Action",
+      "macro_f1": 0.023876789208540222
+    },
+    {
+      "n": 7136,
+      "correct": 2021,
+      "acc": 0.28321188340807174,
+      "acc_percent": "28.32%",
+      "key": "Target",
+      "macro_f1": 0.004420374485798469
+    },
+    {
+      "n": 8960,
+      "correct": 2014,
+      "acc": 0.22477678571428572,
+      "acc_percent": "22.48%",
+      "key": "anatomy_hop",
+      "macro_f1": 0.00975665852673041
+    }
+  ],
+  "by_combo_main_sub_subsub": [
+    {
+      "n": 1784,
+      "correct": 855,
+      "acc": 0.4792600896860987,
+      "acc_percent": "47.93%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Word_Cue",
+      "sub_sub_tag": "Instrument",
+      "macro_f1": 0.16645397577191678,
+      "micro_f1": 0.4792600896860987,
+      "weighted_f1": 0.6363414296045001
+    },
+    {
+      "n": 1784,
+      "correct": 808,
+      "acc": 0.452914798206278,
+      "acc_percent": "45.29%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Word_Cue",
+      "sub_sub_tag": "Action",
+      "macro_f1": 0.07475621988104428,
+      "micro_f1": 0.452914798206278,
+      "weighted_f1": 0.6013312491725668
+    },
+    {
+      "n": 1785,
+      "correct": 784,
+      "acc": 0.4392156862745098,
+      "acc_percent": "43.92%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Position_Cue",
+      "sub_sub_tag": "Instrument",
+      "macro_f1": 0.12130782893229804,
+      "micro_f1": 0.4392156862745098,
+      "weighted_f1": 0.584362821914644
+    },
+    {
+      "n": 1785,
+      "correct": 774,
+      "acc": 0.4336134453781513,
+      "acc_percent": "43.36%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Arrow_Cue",
+      "sub_sub_tag": "Instrument",
+      "macro_f1": 0.1746684209714855,
+      "micro_f1": 0.4336134453781513,
+      "weighted_f1": 0.5753114116662054
+    },
+    {
+      "n": 1785,
+      "correct": 747,
+      "acc": 0.4184873949579832,
+      "acc_percent": "41.85%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Box_Cue",
+      "sub_sub_tag": "Instrument",
+      "macro_f1": 0.13141627773979733,
+      "micro_f1": 0.4184873949579832,
+      "weighted_f1": 0.5531249745987932
+    },
+    {
+      "n": 1785,
+      "correct": 667,
+      "acc": 0.37366946778711485,
+      "acc_percent": "37.37%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Position_Cue",
+      "sub_sub_tag": "Action",
+      "macro_f1": 0.031475322323894,
+      "micro_f1": 0.3736694677871148,
+      "weighted_f1": 0.49878932779192214
+    },
+    {
+      "n": 1784,
+      "correct": 637,
+      "acc": 0.3570627802690583,
+      "acc_percent": "35.71%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Word_Cue",
+      "sub_sub_tag": "Target",
+      "macro_f1": 0.01895252920358912,
+      "micro_f1": 0.3570627802690583,
+      "weighted_f1": 0.4512308446210116
+    },
+    {
+      "n": 1785,
+      "correct": 600,
+      "acc": 0.33613445378151263,
+      "acc_percent": "33.61%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Box_Cue",
+      "sub_sub_tag": "Action",
+      "macro_f1": 0.06007149168622593,
+      "micro_f1": 0.33613445378151263,
+      "weighted_f1": 0.4457980748815706
+    },
+    {
+      "n": 1785,
+      "correct": 590,
+      "acc": 0.33053221288515405,
+      "acc_percent": "33.05%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Arrow_Cue",
+      "sub_sub_tag": "Action",
+      "macro_f1": 0.06885640148206931,
+      "micro_f1": 0.33053221288515405,
+      "weighted_f1": 0.4320594988521812
+    },
+    {
+      "n": 1784,
+      "correct": 508,
+      "acc": 0.28475336322869954,
+      "acc_percent": "28.48%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Position_Cue",
+      "sub_sub_tag": "Target",
+      "macro_f1": 0.009100109249633889,
+      "micro_f1": 0.28475336322869954,
+      "weighted_f1": 0.37045010023728053
+    },
+    {
+      "n": 1784,
+      "correct": 439,
+      "acc": 0.2460762331838565,
+      "acc_percent": "24.61%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Box_Cue",
+      "sub_sub_tag": "Target",
+      "macro_f1": 0.00788129795786517,
+      "micro_f1": 0.2460762331838565,
+      "weighted_f1": 0.31935953770708003
+    },
+    {
+      "n": 1784,
+      "correct": 437,
+      "acc": 0.24495515695067266,
+      "acc_percent": "24.50%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Arrow_Cue",
+      "sub_sub_tag": "Target",
+      "macro_f1": 0.010115384630099256,
+      "micro_f1": 0.24495515695067266,
+      "weighted_f1": 0.31832925858157407
+    },
+    {
+      "n": 2240,
+      "correct": 505,
+      "acc": 0.22544642857142858,
+      "acc_percent": "22.54%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Word_Cue",
+      "sub_sub_tag": "anatomy_hop",
+      "macro_f1": 0.012242035297696753,
+      "micro_f1": 0.22544642857142858,
+      "weighted_f1": 0.24103921272525924
+    },
+    {
+      "n": 2240,
+      "correct": 504,
+      "acc": 0.225,
+      "acc_percent": "22.50%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Arrow_Cue",
+      "sub_sub_tag": "anatomy_hop",
+      "macro_f1": 0.01633657119670254,
+      "micro_f1": 0.225,
+      "weighted_f1": 0.2375644787482507
+    },
+    {
+      "n": 2240,
+      "correct": 503,
+      "acc": 0.22455357142857144,
+      "acc_percent": "22.46%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Position_Cue",
+      "sub_sub_tag": "anatomy_hop",
+      "macro_f1": 0.015993065902136845,
+      "micro_f1": 0.22455357142857144,
+      "weighted_f1": 0.23812014335115275
+    },
+    {
+      "n": 2240,
+      "correct": 502,
+      "acc": 0.22410714285714287,
+      "acc_percent": "22.41%",
+      "main_tag": "Visual_QA",
+      "sub_tag": "Box_Cue",
+      "sub_sub_tag": "anatomy_hop",
+      "macro_f1": 0.014588684327290226,
+      "micro_f1": 0.22410714285714284,
+      "weighted_f1": 0.23694315068309707
+    }
+  ],
+  "per_file": [
+    {
+      "input_file": "lora-infer/test_fair_word_general.jsonl",
+      "num_samples": 1898,
+      "correct": 1450,
+      "accuracy": 0.7639620653319283,
+      "accuracy_percent": "76.40%",
+      "macro_f1": 0.6078626430360793,
+      "micro_f1": 0.7639620653319283,
+      "weighted_f1": 0.7315101194672101,
+      "num_classes": 16,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 1450,
+          "acc": 0.7639620653319283,
+          "acc_percent": "76.40%",
+          "key": "Visual_QA",
+          "f1": 0.6078626430360793
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 1450,
+          "acc": 0.7639620653319283,
+          "acc_percent": "76.40%",
+          "key": "Word_Cue",
+          "f1": 0.6078626430360793
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 434,
+          "acc": 0.9730941704035875,
+          "acc_percent": "97.31%",
+          "key": "Instrument",
+          "f1": 0.6510015634160641
+        },
+        {
+          "n": 446,
+          "correct": 432,
+          "acc": 0.968609865470852,
+          "acc_percent": "96.86%",
+          "key": "Action",
+          "f1": 0.7725024620988574
+        },
+        {
+          "n": 446,
+          "correct": 334,
+          "acc": 0.7488789237668162,
+          "acc_percent": "74.89%",
+          "key": "Target",
+          "f1": 0.49412056832246837
+        },
+        {
+          "n": 560,
+          "correct": 250,
+          "acc": 0.44642857142857145,
+          "acc_percent": "44.64%",
+          "key": "anatomy_hop",
+          "f1": 0.21946768753987786
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 434,
+          "acc": 0.9730941704035875,
+          "acc_percent": "97.31%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.6510015634160641,
+          "micro_f1": 0.9730941704035875,
+          "weighted_f1": 0.968657341964839
+        },
+        {
+          "n": 446,
+          "correct": 432,
+          "acc": 0.968609865470852,
+          "acc_percent": "96.86%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.7725024620988574,
+          "micro_f1": 0.968609865470852,
+          "weighted_f1": 0.9566542974838425
+        },
+        {
+          "n": 446,
+          "correct": 334,
+          "acc": 0.7488789237668162,
+          "acc_percent": "74.89%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.49412056832246837,
+          "micro_f1": 0.7488789237668162,
+          "weighted_f1": 0.6976595204336027
+        },
+        {
+          "n": 560,
+          "correct": 250,
+          "acc": 0.44642857142857145,
+          "acc_percent": "44.64%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.21946768753987786,
+          "micro_f1": 0.44642857142857145,
+          "weighted_f1": 0.334038080914619
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/test_fair_position_general.jsonl",
+      "num_samples": 1898,
+      "correct": 1435,
+      "accuracy": 0.756059009483667,
+      "accuracy_percent": "75.61%",
+      "macro_f1": 0.5743531687652316,
+      "micro_f1": 0.7560590094836669,
+      "weighted_f1": 0.7254322452114856,
+      "num_classes": 16,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 1435,
+          "acc": 0.756059009483667,
+          "acc_percent": "75.61%",
+          "key": "Visual_QA",
+          "f1": 0.5743531687652316
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 1435,
+          "acc": 0.756059009483667,
+          "acc_percent": "75.61%",
+          "key": "Position_Cue",
+          "f1": 0.5743531687652316
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 432,
+          "acc": 0.968609865470852,
+          "acc_percent": "96.86%",
+          "key": "Action",
+          "f1": 0.7725024620988574
+        },
+        {
+          "n": 446,
+          "correct": 422,
+          "acc": 0.9461883408071748,
+          "acc_percent": "94.62%",
+          "key": "Instrument",
+          "f1": 0.5692184068950373
+        },
+        {
+          "n": 446,
+          "correct": 331,
+          "acc": 0.742152466367713,
+          "acc_percent": "74.22%",
+          "key": "Target",
+          "f1": 0.5036175074974483
+        },
+        {
+          "n": 560,
+          "correct": 250,
+          "acc": 0.44642857142857145,
+          "acc_percent": "44.64%",
+          "key": "anatomy_hop",
+          "f1": 0.20679387669725066
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 432,
+          "acc": 0.968609865470852,
+          "acc_percent": "96.86%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.7725024620988574,
+          "micro_f1": 0.968609865470852,
+          "weighted_f1": 0.9566542974838425
+        },
+        {
+          "n": 446,
+          "correct": 422,
+          "acc": 0.9461883408071748,
+          "acc_percent": "94.62%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.5692184068950373,
+          "micro_f1": 0.9461883408071748,
+          "weighted_f1": 0.9419104601286798
+        },
+        {
+          "n": 446,
+          "correct": 331,
+          "acc": 0.742152466367713,
+          "acc_percent": "74.22%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.5036175074974483,
+          "micro_f1": 0.7421524663677131,
+          "weighted_f1": 0.7002181695934296
+        },
+        {
+          "n": 560,
+          "correct": 250,
+          "acc": 0.44642857142857145,
+          "acc_percent": "44.64%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.20679387669725066,
+          "micro_f1": 0.44642857142857145,
+          "weighted_f1": 0.3286247083609669
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/test_fair_box_general.jsonl",
+      "num_samples": 1898,
+      "correct": 1422,
+      "accuracy": 0.7492096944151738,
+      "accuracy_percent": "74.92%",
+      "macro_f1": 0.5777356213460719,
+      "micro_f1": 0.7492096944151738,
+      "weighted_f1": 0.7171886193826285,
+      "num_classes": 16,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 1422,
+          "acc": 0.7492096944151738,
+          "acc_percent": "74.92%",
+          "key": "Visual_QA",
+          "f1": 0.5777356213460719
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 1422,
+          "acc": 0.7492096944151738,
+          "acc_percent": "74.92%",
+          "key": "Box_Cue",
+          "f1": 0.5777356213460719
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 433,
+          "acc": 0.9708520179372198,
+          "acc_percent": "97.09%",
+          "key": "Action",
+          "f1": 0.806231620382302
+        },
+        {
+          "n": 446,
+          "correct": 418,
+          "acc": 0.9372197309417041,
+          "acc_percent": "93.72%",
+          "key": "Instrument",
+          "f1": 0.5702811342161611
+        },
+        {
+          "n": 446,
+          "correct": 321,
+          "acc": 0.7197309417040358,
+          "acc_percent": "71.97%",
+          "key": "Target",
+          "f1": 0.4799698421805715
+        },
+        {
+          "n": 560,
+          "correct": 250,
+          "acc": 0.44642857142857145,
+          "acc_percent": "44.64%",
+          "key": "anatomy_hop",
+          "f1": 0.19269242288110214
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 433,
+          "acc": 0.9708520179372198,
+          "acc_percent": "97.09%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.806231620382302,
+          "micro_f1": 0.9708520179372198,
+          "weighted_f1": 0.9618387852035016
+        },
+        {
+          "n": 446,
+          "correct": 418,
+          "acc": 0.9372197309417041,
+          "acc_percent": "93.72%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.5702811342161611,
+          "micro_f1": 0.9372197309417041,
+          "weighted_f1": 0.9358298486972516
+        },
+        {
+          "n": 446,
+          "correct": 321,
+          "acc": 0.7197309417040358,
+          "acc_percent": "71.97%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.4799698421805715,
+          "micro_f1": 0.7197309417040358,
+          "weighted_f1": 0.6797175142642724
+        },
+        {
+          "n": 560,
+          "correct": 250,
+          "acc": 0.44642857142857145,
+          "acc_percent": "44.64%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.19269242288110214,
+          "micro_f1": 0.44642857142857145,
+          "weighted_f1": 0.3236731485046849
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/test_fair_arrow_general.jsonl",
+      "num_samples": 1898,
+      "correct": 1394,
+      "accuracy": 0.7344573234984194,
+      "accuracy_percent": "73.45%",
+      "macro_f1": 0.5749060443843691,
+      "micro_f1": 0.7344573234984194,
+      "weighted_f1": 0.7042637626480792,
+      "num_classes": 16,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 1394,
+          "acc": 0.7344573234984194,
+          "acc_percent": "73.45%",
+          "key": "Visual_QA",
+          "f1": 0.5749060443843691
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 1394,
+          "acc": 0.7344573234984194,
+          "acc_percent": "73.45%",
+          "key": "Arrow_Cue",
+          "f1": 0.5749060443843691
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 432,
+          "acc": 0.968609865470852,
+          "acc_percent": "96.86%",
+          "key": "Action",
+          "f1": 0.7725024620988574
+        },
+        {
+          "n": 446,
+          "correct": 423,
+          "acc": 0.9484304932735426,
+          "acc_percent": "94.84%",
+          "key": "Instrument",
+          "f1": 0.5920716112531969
+        },
+        {
+          "n": 446,
+          "correct": 287,
+          "acc": 0.6434977578475336,
+          "acc_percent": "64.35%",
+          "key": "Target",
+          "f1": 0.43997509784380295
+        },
+        {
+          "n": 560,
+          "correct": 252,
+          "acc": 0.45,
+          "acc_percent": "45.00%",
+          "key": "anatomy_hop",
+          "f1": 0.20995485343075618
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 432,
+          "acc": 0.968609865470852,
+          "acc_percent": "96.86%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.7725024620988574,
+          "micro_f1": 0.968609865470852,
+          "weighted_f1": 0.9566542974838425
+        },
+        {
+          "n": 446,
+          "correct": 423,
+          "acc": 0.9484304932735426,
+          "acc_percent": "94.84%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.5920716112531969,
+          "micro_f1": 0.9484304932735426,
+          "weighted_f1": 0.9449030694360021
+        },
+        {
+          "n": 446,
+          "correct": 287,
+          "acc": 0.6434977578475336,
+          "acc_percent": "64.35%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.43997509784380295,
+          "micro_f1": 0.6434977578475336,
+          "weighted_f1": 0.6261133496091719
+        },
+        {
+          "n": 560,
+          "correct": 252,
+          "acc": 0.45,
+          "acc_percent": "45.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.20995485343075618,
+          "micro_f1": 0.45,
+          "weighted_f1": 0.33043349506039466
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/test_fair_word_less_bias.jsonl",
+      "num_samples": 1898,
+      "correct": 1354,
+      "accuracy": 0.7133825079030558,
+      "accuracy_percent": "71.34%",
+      "macro_f1": 0.47873097826284455,
+      "micro_f1": 0.7133825079030558,
+      "weighted_f1": 0.682550509283519,
+      "num_classes": 16,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 1354,
+          "acc": 0.7133825079030558,
+          "acc_percent": "71.34%",
+          "key": "Visual_QA",
+          "f1": 0.47873097826284455
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 1354,
+          "acc": 0.7133825079030558,
+          "acc_percent": "71.34%",
+          "key": "Word_Cue",
+          "f1": 0.47873097826284455
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 420,
+          "acc": 0.9417040358744395,
+          "acc_percent": "94.17%",
+          "key": "Instrument",
+          "f1": 0.5880126635797
+        },
+        {
+          "n": 446,
+          "correct": 376,
+          "acc": 0.8430493273542601,
+          "acc_percent": "84.30%",
+          "key": "Action",
+          "f1": 0.4770134704859422
+        },
+        {
+          "n": 446,
+          "correct": 303,
+          "acc": 0.679372197309417,
+          "acc_percent": "67.94%",
+          "key": "Target",
+          "f1": 0.4625700667988668
+        },
+        {
+          "n": 560,
+          "correct": 255,
+          "acc": 0.45535714285714285,
+          "acc_percent": "45.54%",
+          "key": "anatomy_hop",
+          "f1": 0.19573333333333337
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 420,
+          "acc": 0.9417040358744395,
+          "acc_percent": "94.17%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.5880126635797,
+          "micro_f1": 0.9417040358744395,
+          "weighted_f1": 0.9381863685912671
+        },
+        {
+          "n": 446,
+          "correct": 376,
+          "acc": 0.8430493273542601,
+          "acc_percent": "84.30%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.4770134704859422,
+          "micro_f1": 0.8430493273542601,
+          "weighted_f1": 0.8492681633975148
+        },
+        {
+          "n": 446,
+          "correct": 303,
+          "acc": 0.679372197309417,
+          "acc_percent": "67.94%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.4625700667988668,
+          "micro_f1": 0.679372197309417,
+          "weighted_f1": 0.6497302847502889
+        },
+        {
+          "n": 560,
+          "correct": 255,
+          "acc": 0.45535714285714285,
+          "acc_percent": "45.54%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.19573333333333337,
+          "micro_f1": 0.45535714285714285,
+          "weighted_f1": 0.3263809523809524
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/test_fair_position_less_bias.jsonl",
+      "num_samples": 1898,
+      "correct": 1021,
+      "accuracy": 0.5379346680716544,
+      "accuracy_percent": "53.79%",
+      "macro_f1": 0.35244725640384117,
+      "micro_f1": 0.5379346680716544,
+      "weighted_f1": 0.5072982854195071,
+      "num_classes": 16,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 1021,
+          "acc": 0.5379346680716544,
+          "acc_percent": "53.79%",
+          "key": "Visual_QA",
+          "f1": 0.35244725640384117
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 1021,
+          "acc": 0.5379346680716544,
+          "acc_percent": "53.79%",
+          "key": "Position_Cue",
+          "f1": 0.35244725640384117
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 356,
+          "acc": 0.7982062780269058,
+          "acc_percent": "79.82%",
+          "key": "Instrument",
+          "f1": 0.46211368653421636
+        },
+        {
+          "n": 446,
+          "correct": 235,
+          "acc": 0.5269058295964125,
+          "acc_percent": "52.69%",
+          "key": "Action",
+          "f1": 0.31178968750999997
+        },
+        {
+          "n": 560,
+          "correct": 253,
+          "acc": 0.4517857142857143,
+          "acc_percent": "45.18%",
+          "key": "anatomy_hop",
+          "f1": 0.19355573294719708
+        },
+        {
+          "n": 446,
+          "correct": 177,
+          "acc": 0.3968609865470852,
+          "acc_percent": "39.69%",
+          "key": "Target",
+          "f1": 0.30464530930217204
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 356,
+          "acc": 0.7982062780269058,
+          "acc_percent": "79.82%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.46211368653421636,
+          "micro_f1": 0.7982062780269058,
+          "weighted_f1": 0.810442961225116
+        },
+        {
+          "n": 446,
+          "correct": 235,
+          "acc": 0.5269058295964125,
+          "acc_percent": "52.69%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.31178968750999997,
+          "micro_f1": 0.5269058295964125,
+          "weighted_f1": 0.5410020549789007
+        },
+        {
+          "n": 560,
+          "correct": 253,
+          "acc": 0.4517857142857143,
+          "acc_percent": "45.18%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.19355573294719708,
+          "micro_f1": 0.4517857142857143,
+          "weighted_f1": 0.323328754153749
+        },
+        {
+          "n": 446,
+          "correct": 177,
+          "acc": 0.3968609865470852,
+          "acc_percent": "39.69%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.30464530930217204,
+          "micro_f1": 0.3968609865470851,
+          "weighted_f1": 0.4011287143837923
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/test_fair_arrow_less_bias.jsonl",
+      "num_samples": 1898,
+      "correct": 896,
+      "accuracy": 0.4720758693361433,
+      "accuracy_percent": "47.21%",
+      "macro_f1": 0.30631792383938405,
+      "micro_f1": 0.4720758693361433,
+      "weighted_f1": 0.4083557570632492,
+      "num_classes": 16,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 896,
+          "acc": 0.4720758693361433,
+          "acc_percent": "47.21%",
+          "key": "Visual_QA",
+          "f1": 0.30631792383938405
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 896,
+          "acc": 0.4720758693361433,
+          "acc_percent": "47.21%",
+          "key": "Arrow_Cue",
+          "f1": 0.30631792383938405
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 338,
+          "acc": 0.757847533632287,
+          "acc_percent": "75.78%",
+          "key": "Instrument",
+          "f1": 0.4577757007566851
+        },
+        {
+          "n": 560,
+          "correct": 252,
+          "acc": 0.45,
+          "acc_percent": "45.00%",
+          "key": "anatomy_hop",
+          "f1": 0.19125788665946683
+        },
+        {
+          "n": 446,
+          "correct": 158,
+          "acc": 0.3542600896860987,
+          "acc_percent": "35.43%",
+          "key": "Action",
+          "f1": 0.1927794744572656
+        },
+        {
+          "n": 446,
+          "correct": 148,
+          "acc": 0.33183856502242154,
+          "acc_percent": "33.18%",
+          "key": "Target",
+          "f1": 0.2737115869241935
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 338,
+          "acc": 0.757847533632287,
+          "acc_percent": "75.78%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.4577757007566851,
+          "micro_f1": 0.7578475336322871,
+          "weighted_f1": 0.7746504457326983
+        },
+        {
+          "n": 560,
+          "correct": 252,
+          "acc": 0.45,
+          "acc_percent": "45.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.19125788665946683,
+          "micro_f1": 0.45,
+          "weighted_f1": 0.3199876574286851
+        },
+        {
+          "n": 446,
+          "correct": 158,
+          "acc": 0.3542600896860987,
+          "acc_percent": "35.43%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.1927794744572656,
+          "micro_f1": 0.3542600896860987,
+          "weighted_f1": 0.24686957579694258
+        },
+        {
+          "n": 446,
+          "correct": 148,
+          "acc": 0.33183856502242154,
+          "acc_percent": "33.18%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.2737115869241935,
+          "micro_f1": 0.33183856502242154,
+          "weighted_f1": 0.32993218137182384
+        }
+      ]
+    },
+    {
+      "input_file": "lora-infer/test_fair_box_less_bias.jsonl",
+      "num_samples": 1898,
+      "correct": 847,
+      "accuracy": 0.44625922023182296,
+      "accuracy_percent": "44.63%",
+      "macro_f1": 0.2911493212017487,
+      "micro_f1": 0.44625922023182296,
+      "weighted_f1": 0.3865503045411414,
+      "num_classes": 16,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 847,
+          "acc": 0.44625922023182296,
+          "acc_percent": "44.63%",
+          "key": "Visual_QA",
+          "f1": 0.2911493212017487
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 847,
+          "acc": 0.44625922023182296,
+          "acc_percent": "44.63%",
+          "key": "Box_Cue",
+          "f1": 0.2911493212017487
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 310,
+          "acc": 0.695067264573991,
+          "acc_percent": "69.51%",
+          "key": "Instrument",
+          "f1": 0.4095763105526539
+        },
+        {
+          "n": 560,
+          "correct": 252,
+          "acc": 0.45,
+          "acc_percent": "45.00%",
+          "key": "anatomy_hop",
+          "f1": 0.1937154594806084
+        },
+        {
+          "n": 446,
+          "correct": 167,
+          "acc": 0.3744394618834081,
+          "acc_percent": "37.44%",
+          "key": "Action",
+          "f1": 0.23144274234621331
+        },
+        {
+          "n": 446,
+          "correct": 118,
+          "acc": 0.2645739910313901,
+          "acc_percent": "26.46%",
+          "key": "Target",
+          "f1": 0.21874566111854243
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 310,
+          "acc": 0.695067264573991,
+          "acc_percent": "69.51%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.4095763105526539,
+          "micro_f1": 0.695067264573991,
+          "weighted_f1": 0.734692578410525
+        },
+        {
+          "n": 560,
+          "correct": 252,
+          "acc": 0.45,
+          "acc_percent": "45.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.1937154594806084,
+          "micro_f1": 0.45,
+          "weighted_f1": 0.32331314758015495
+        },
+        {
+          "n": 446,
+          "correct": 167,
+          "acc": 0.3744394618834081,
+          "acc_percent": "37.44%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.23144274234621331,
+          "micro_f1": 0.3744394618834081,
+          "weighted_f1": 0.2981000946072732
+        },
+        {
+          "n": 446,
+          "correct": 118,
+          "acc": 0.2645739910313901,
+          "acc_percent": "26.46%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.21874566111854243,
+          "micro_f1": 0.2645739910313901,
+          "weighted_f1": 0.23515461508925065
+        }
+      ]
+    },
+    {
+      "input_file": "zeroshot/test_fair_box_general.jsonl",
+      "num_samples": 1898,
+      "correct": 19,
+      "accuracy": 0.010010537407797681,
+      "accuracy_percent": "1.00%",
+      "macro_f1": 0.0008738042678440028,
+      "micro_f1": 0.010010537407797681,
+      "weighted_f1": 0.01670632732956964,
+      "num_classes": 144,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 19,
+          "acc": 0.010010537407797681,
+          "acc_percent": "1.00%",
+          "key": "Visual_QA",
+          "f1": 0.0008738042678440028
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 19,
+          "acc": 0.010010537407797681,
+          "acc_percent": "1.00%",
+          "key": "Box_Cue",
+          "f1": 0.0008738042678440028
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 19,
+          "acc": 0.042600896860986545,
+          "acc_percent": "4.26%",
+          "key": "Instrument",
+          "f1": 0.011438892233594218
+        },
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "anatomy_hop",
+          "f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Action",
+          "f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Target",
+          "f1": 0.0
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 19,
+          "acc": 0.042600896860986545,
+          "acc_percent": "4.26%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.011438892233594218,
+          "micro_f1": 0.042600896860986545,
+          "weighted_f1": 0.07109553648323581
+        },
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        }
+      ]
+    },
+    {
+      "input_file": "zeroshot/test_fair_arrow_general.jsonl",
+      "num_samples": 1898,
+      "correct": 15,
+      "accuracy": 0.007903055848261328,
+      "accuracy_percent": "0.79%",
+      "macro_f1": 0.0008534010619173041,
+      "micro_f1": 0.007903055848261328,
+      "weighted_f1": 0.01478627750110786,
+      "num_classes": 126,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 15,
+          "acc": 0.007903055848261328,
+          "acc_percent": "0.79%",
+          "key": "Visual_QA",
+          "f1": 0.0008534010619173041
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 15,
+          "acc": 0.007903055848261328,
+          "acc_percent": "0.79%",
+          "key": "Arrow_Cue",
+          "f1": 0.0008534010619173041
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 13,
+          "acc": 0.02914798206278027,
+          "acc_percent": "2.91%",
+          "key": "Instrument",
+          "f1": 0.009558823529411764
+        },
+        {
+          "n": 446,
+          "correct": 2,
+          "acc": 0.004484304932735426,
+          "acc_percent": "0.45%",
+          "key": "Target",
+          "f1": 0.00022644927536231884
+        },
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "anatomy_hop",
+          "f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Action",
+          "f1": 0.0
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 13,
+          "acc": 0.02914798206278027,
+          "acc_percent": "2.91%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.009558823529411764,
+          "micro_f1": 0.02914798206278027,
+          "weighted_f1": 0.05400949617515167
+        },
+        {
+          "n": 446,
+          "correct": 2,
+          "acc": 0.004484304932735426,
+          "acc_percent": "0.45%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.00022644927536231884,
+          "micro_f1": 0.004484304932735426,
+          "weighted_f1": 0.00889854260089686
+        },
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        }
+      ]
+    },
+    {
+      "input_file": "zeroshot/test_fair_position_general.jsonl",
+      "num_samples": 1898,
+      "correct": 6,
+      "accuracy": 0.003161222339304531,
+      "accuracy_percent": "0.32%",
+      "macro_f1": 0.00029776674937965255,
+      "micro_f1": 0.003161222339304531,
+      "weighted_f1": 0.006127907919267245,
+      "num_classes": 155,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 6,
+          "acc": 0.003161222339304531,
+          "acc_percent": "0.32%",
+          "key": "Visual_QA",
+          "f1": 0.00029776674937965255
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 6,
+          "acc": 0.003161222339304531,
+          "acc_percent": "0.32%",
+          "key": "Position_Cue",
+          "f1": 0.00029776674937965255
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 6,
+          "acc": 0.013452914798206279,
+          "acc_percent": "1.35%",
+          "key": "Instrument",
+          "f1": 0.005769230769230769
+        },
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "anatomy_hop",
+          "f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Action",
+          "f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Target",
+          "f1": 0.0
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 6,
+          "acc": 0.013452914798206279,
+          "acc_percent": "1.35%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.005769230769230769,
+          "micro_f1": 0.013452914798206279,
+          "weighted_f1": 0.026077957916522936
+        },
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        }
+      ]
+    },
+    {
+      "input_file": "zeroshot/test_fair_word_less_bias.jsonl",
+      "num_samples": 1898,
+      "correct": 1,
+      "accuracy": 0.0005268703898840885,
+      "accuracy_percent": "0.05%",
+      "macro_f1": 0.000412796697626419,
+      "micro_f1": 0.0005268703898840885,
+      "weighted_f1": 2.066158391702308e-05,
+      "num_classes": 95,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 1,
+          "acc": 0.0005268703898840885,
+          "acc_percent": "0.05%",
+          "key": "Visual_QA",
+          "f1": 0.000412796697626419
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 1,
+          "acc": 0.0005268703898840885,
+          "acc_percent": "0.05%",
+          "key": "Word_Cue",
+          "f1": 0.000412796697626419
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 446,
+          "correct": 1,
+          "acc": 0.002242152466367713,
+          "acc_percent": "0.22%",
+          "key": "Instrument",
+          "f1": 0.00392156862745098
+        },
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "anatomy_hop",
+          "f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Action",
+          "f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Target",
+          "f1": 0.0
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 446,
+          "correct": 1,
+          "acc": 0.002242152466367713,
+          "acc_percent": "0.22%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.00392156862745098,
+          "micro_f1": 0.002242152466367713,
+          "weighted_f1": 8.792754770069463e-05
+        },
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        }
+      ]
+    },
+    {
+      "input_file": "zeroshot/test_fair_arrow_less_bias.jsonl",
+      "num_samples": 1900,
+      "correct": 0,
+      "accuracy": 0.0,
+      "accuracy_percent": "0.00%",
+      "macro_f1": 0.0,
+      "micro_f1": 0.0,
+      "weighted_f1": 0.0,
+      "num_classes": 90,
+      "by_main_tag": [
+        {
+          "n": 1900,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Visual_QA",
+          "f1": 0.0
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1900,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Arrow_Cue",
+          "f1": 0.0
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "anatomy_hop",
+          "f1": 0.0
+        },
+        {
+          "n": 447,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Instrument",
+          "f1": 0.0
+        },
+        {
+          "n": 447,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Action",
+          "f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Target",
+          "f1": 0.0
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 447,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 447,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Arrow_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        }
+      ]
+    },
+    {
+      "input_file": "zeroshot/test_fair_box_less_bias.jsonl",
+      "num_samples": 1900,
+      "correct": 0,
+      "accuracy": 0.0,
+      "accuracy_percent": "0.00%",
+      "macro_f1": 0.0,
+      "micro_f1": 0.0,
+      "weighted_f1": 0.0,
+      "num_classes": 116,
+      "by_main_tag": [
+        {
+          "n": 1900,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Visual_QA",
+          "f1": 0.0
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1900,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Box_Cue",
+          "f1": 0.0
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "anatomy_hop",
+          "f1": 0.0
+        },
+        {
+          "n": 447,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Instrument",
+          "f1": 0.0
+        },
+        {
+          "n": 447,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Action",
+          "f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Target",
+          "f1": 0.0
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 447,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 447,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Box_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        }
+      ]
+    },
+    {
+      "input_file": "zeroshot/test_fair_position_less_bias.jsonl",
+      "num_samples": 1900,
+      "correct": 0,
+      "accuracy": 0.0,
+      "accuracy_percent": "0.00%",
+      "macro_f1": 0.0,
+      "micro_f1": 0.0,
+      "weighted_f1": 0.0,
+      "num_classes": 132,
+      "by_main_tag": [
+        {
+          "n": 1900,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Visual_QA",
+          "f1": 0.0
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1900,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Position_Cue",
+          "f1": 0.0
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "anatomy_hop",
+          "f1": 0.0
+        },
+        {
+          "n": 447,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Instrument",
+          "f1": 0.0
+        },
+        {
+          "n": 447,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Action",
+          "f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Target",
+          "f1": 0.0
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 447,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 447,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Position_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        }
+      ]
+    },
+    {
+      "input_file": "zeroshot/test_fair_word_general.jsonl",
+      "num_samples": 1898,
+      "correct": 0,
+      "accuracy": 0.0,
+      "accuracy_percent": "0.00%",
+      "macro_f1": 0.0,
+      "micro_f1": 0.0,
+      "weighted_f1": 0.0,
+      "num_classes": 121,
+      "by_main_tag": [
+        {
+          "n": 1898,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Visual_QA",
+          "f1": 0.0
+        }
+      ],
+      "by_sub_tag": [
+        {
+          "n": 1898,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Word_Cue",
+          "f1": 0.0
+        }
+      ],
+      "by_sub_sub_tag": [
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "anatomy_hop",
+          "f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Instrument",
+          "f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Action",
+          "f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "key": "Target",
+          "f1": 0.0
+        }
+      ],
+      "by_combo_main_sub_subsub": [
+        {
+          "n": 560,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "anatomy_hop",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Instrument",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Action",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        },
+        {
+          "n": 446,
+          "correct": 0,
+          "acc": 0.0,
+          "acc_percent": "0.00%",
+          "main_tag": "Visual_QA",
+          "sub_tag": "Word_Cue",
+          "sub_sub_tag": "Target",
+          "macro_f1": 0.0,
+          "micro_f1": 0.0,
+          "weighted_f1": 0.0
+        }
+      ]
+    }
+  ]
+}
